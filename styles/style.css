@@ -1,0 +1,171 @@
+/* utilities */
+
+main {
+  font-family: Poppins;
+}
+footer {
+  background-color: black;
+  margin: -20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+hr {
+  margin: 0 70px;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* banner styles */
+
+.container {
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+.banner {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+.banner-title, .banner-img {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.banner-img{
+  margin-top: 30px;
+  margin-left: 24px;
+}
+.heading {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+.description {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 0;
+}
+.watch-btn {
+  background-color: #DD0000;
+  border-radius: 5px;
+  padding: 16px 25px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  width: 187px;
+  height: 56px;
+  transition: width 0.15s background-color 0.15s  font-size ease-in;
+  margin-bottom: 10px;
+}
+.watch-btn:hover {
+  width: 220px;
+  background-color: #ff2d2dec;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* blog part styles */
+.blog-container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.main-part {
+  display: grid;
+  grid-template-columns: 220px repeat(3, 1fr);
+  gap: 20px;
+}
+.side-btn-container {
+  background-color: black;
+  border-radius: 10px;
+  height: fit-content;
+}
+.general-btn {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px;
+  margin: 12px;
+}
+.side-btn {
+  color: black;
+}
+.selected-btn {
+  background-color: red;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.blog {
+  border: 0.5px solid #1E1E1E;
+  border-radius: 8px;
+}
+.caption {
+  padding-left: 20px;
+}
+.blog-img-container {
+  display: inline-block;
+  vertical-align: top;
+}
+.blog-btn {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 6px 20px;
+  font-size: 15px;
+  background-color: white;
+}
+.icons {
+  color: #161616;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.fa-comment-dots {
+  margin-left: 20px;
+}
+
+/* footer styles  */
+
+.footer-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tagline {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer-deco {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.fa-brands {
+  margin: 10px;
+}
+
+@media screen (max-width: ) {
+  
+}

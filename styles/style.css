@@ -15,6 +15,9 @@ hr {
   margin: 0 70px;
   color: rgba(255, 255, 255, 0.1);
 }
+img {
+  width: 100%;
+}
 
 
 /* banner styles */
@@ -193,9 +196,6 @@ hr {
   .banner {
     flex-direction: column;
   }
-  img {
-    width: 100%;
-  }
   .side-btn-container {
     background-color: white;
     border: none;
@@ -244,9 +244,6 @@ hr {
   }
   .tab-btn {
     color: white;
-  }
-  img {
-    width: 100%;
   }
   .footer-deco {
     /* flex-direction: row; */

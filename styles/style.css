@@ -23,7 +23,7 @@ img {
 /* banner styles */
 
 .container {
-  background-color: black;
+  background: black;
   border-radius: 10px;
   padding-left: 40px;
 }
